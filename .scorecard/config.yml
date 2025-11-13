@@ -5,8 +5,10 @@ service:
   links:
     - name: "Documentation"
       url: "https://github.com/feddericovonwernich/test-repo-perfect"
+      description: "Complete guide with examples and best practices"
     - name: "API Reference"
       url: "https://github.com/feddericovonwernich/test-repo-perfect/wiki"
+      description: "Technical documentation and API specifications"
 
 custom:
   criticality: "high"
