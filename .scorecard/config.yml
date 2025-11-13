@@ -12,6 +12,7 @@ service:
 
 openapi:
   spec_file: "openapi.yaml"
+  branch: "master"  # Branch where the OpenAPI spec is located
   environments:
     production:
       base_url: "https://api.example.com/v1"
