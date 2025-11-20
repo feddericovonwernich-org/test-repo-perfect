@@ -2,7 +2,22 @@ service:
   name: "test-repo-perfect"
   team: "Platform Engineering"
   description: "Reference implementation demonstrating all scorecards best practices"
-  links: []
+  links:
+    - name: "OpenAPI Specification"
+      url: "https://github.com/feddericovonwernich/test-repo-perfect/blob/master/openapi.yaml"
+      description: "API contract and schema definitions"
+
+    - name: "API Explorer"
+      url: "https://api.example.com/swagger-ui"
+      description: "Interactive Swagger UI for testing endpoints"
+
+    - name: "Documentation Portal"
+      url: "https://docs.example.com/services/perfect-api"
+      description: "Comprehensive service documentation"
+
+    - name: "Incident Runbook"
+      url: "https://confluence.example.com/display/ENG/Perfect+API+Runbook"
+      description: "Troubleshooting guides and escalation procedures"
 
 openapi:
   spec_file: "openapi.yaml"
