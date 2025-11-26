@@ -1,5 +1,0 @@
-service:
-  name: "test-repo-perfect"
-  team: "platform"
-  description: "Reference implementation repository"
-  links: []
